@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ormconfig.json</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="doc-style.css" />
+  <script src="doc-filelist.js"></script>
+  <script>
+    var relativeDir = "";
+    var thisFile = "ormconfig.json";
+    var defaultSidebar = true;
+  </script>
+  <script src="doc-script.js"></script>
+
+</head>
+<body>
+  <div id="sidebar_wrapper">
+    <div id="sidebar_switch">
+      <span class="tree">Files</span>
+      <span class="headings">Headings</span>
+    </div>
+    <div id="tree"></div>
+    <div id="headings">
+
+    </div>
+  </div>
+  <div id="sidebar-toggle"></div>
+  <div id="container">
+    <div class="background highlight"></div>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    
+      <tr>
+        <td class="docs">
+          <h1>ormconfig.json</h1>
+        </td>
+        <td class="code highlight"></td>
+      </tr>
+    
+    
+      <tr>
+        <td class="docs">
+          <div class="pilwrap">
+  <a class="pilcrow" href="#section-1" id="section-1"></a>
+</div>
+
+        </td>
+        <td class="code highlight">
+          <pre class="json">{
+  <span class="hljs-attr">"type"</span>: <span class="hljs-string">"postgres"</span>,
+  <span class="hljs-attr">"host"</span>: <span class="hljs-string">"db"</span>,  <span class="hljs-comment">// Nome do serviço no Docker Compose</span>
+  <span class="hljs-attr">"port"</span>: <span class="hljs-number">5432</span>,
+  <span class="hljs-attr">"username"</span>: <span class="hljs-string">"seu_usuario"</span>,
+  <span class="hljs-attr">"password"</span>: <span class="hljs-string">"sua_senha"</span>,
+  <span class="hljs-attr">"database"</span>: <span class="hljs-string">"leitura_medidores"</span>,
+  <span class="hljs-attr">"synchronize"</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">"logging"</span>: <span class="hljs-literal">false</span>,
+  <span class="hljs-attr">"entities"</span>: [
+    <span class="hljs-string">"src/entity/*/.ts"</span>
+  ],
+  <span class="hljs-attr">"migrations"</span>: [
+    <span class="hljs-string">"src/migration/*/.ts"</span>
+  ],
+  <span class="hljs-attr">"subscribers"</span>: [
+    <span class="hljs-string">"src/subscriber/*/.ts"</span>
+  ]
+}
+
+</pre>
+        </td>
+      </tr>
+    
+  </tbody>
+</table>
+
+  </div>
+</body>
+</html>
