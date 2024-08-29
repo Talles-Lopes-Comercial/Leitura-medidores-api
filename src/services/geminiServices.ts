@@ -6,7 +6,7 @@ import fs from 'fs';
 
 
 const GEMINI_API_URL = 'https://api.geminiai.com/v1/process-image';
-const GEMINI_API_KEY = 'AIzaSyBO-mDyaimjeLxZkD0UfR2DCRA4GWXKAvA';  // Substitua pela sua chave da Gemini AI
+const GEMINI_API_KEY = process.env.MY_SECRET_KEY;   // Substitua pela sua chave da Gemini AI
 
 export const geminiService = {
   processImage: async (imagePath: string) => {
